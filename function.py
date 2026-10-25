@@ -15,10 +15,10 @@ def IsStale(path, maxAge) :
     return age > maxAge
 
 if IsStale(path,300) :
-    print(f"the file at this {path} is stale.")
+    print(f"Hi, the file at this {path} is stale.")
 
 
 else :
-    print(f"the file at this {path} is not stale.")   
+    print(f"Hi, the file at this {path} is not stale.")   
 
     print("yess")
